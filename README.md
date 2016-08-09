@@ -2,25 +2,27 @@
 
 A simple rest api code that displays a random number and a randomly generated JSON by using Async,Await and Promises with some aid of Babel("presets": ["stage-3"])
 
-### Install all dependencies
+## Setup Instructions
+
+- Install all dependencies
 
 `npm install`
 
-### To transpile ES7/ES6 code-
+- To transpile ES7/ES6 code-
 
 `babel routes/compute.orig.js --preset > routes/compute.js`
 
-### Run the project
+- Run the project
 
 `DEBUG=expressjs-async-await-promise:* npm start`
 
-### Random Number - API Endpoint and Response
+- Random Number - API Endpoint and Response
 
 `http://localhost:3000/randomNumber`
 
 `Random Number 89`
 
-### Random JSON - API Endpoint and Response
+- Random JSON - API Endpoint and Response
 
 `http://localhost:3000/randomJSON`
 
