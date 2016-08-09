@@ -1,5 +1,5 @@
 {
-  "name": "expressjs-async-await-promise",
+  "name": "healthdigest",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,11 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-3": "^6.11.0"
   }
 }
