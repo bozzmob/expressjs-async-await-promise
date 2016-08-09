@@ -30,10 +30,6 @@ exports.randomNumber = async function(req, res) {
     var randomNum = await getRandomInt();
     res.send("Random Number " + randomNum)
 }
-catch (err) {
-    console.log("Exception: Promise " + err);
-}
-}
 
 async function getContentByCategory(category) {
     console.log("I am a " + category + " Data");
